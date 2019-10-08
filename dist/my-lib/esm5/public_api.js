@@ -1,0 +1,4 @@
+export * from './bar/bar.service';
+export * from './foo/foo.component';
+export * from './lib.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BteS9saWIvIiwic291cmNlcyI6WyJwdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGNBQWMsbUJBQW1CLENBQUM7QUFDbEMsY0FBYyxxQkFBcUIsQ0FBQztBQUNwQyxjQUFjLGNBQWMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gJy4vYmFyL2Jhci5zZXJ2aWNlJztcbmV4cG9ydCAqIGZyb20gJy4vZm9vL2Zvby5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIubW9kdWxlJztcbiJdfQ==

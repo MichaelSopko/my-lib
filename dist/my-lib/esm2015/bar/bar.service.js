@@ -1,0 +1,14 @@
+import * as tslib_1 from "tslib";
+import { Injectable } from '@angular/core';
+import { of } from 'rxjs';
+import { map } from 'rxjs/operators';
+let BarService = class BarService {
+    get value() {
+        return of(true).pipe(map(val => `${val}`));
+    }
+};
+BarService = tslib_1.__decorate([
+    Injectable()
+], BarService);
+export { BarService };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmFyLnNlcnZpY2UuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9AbXkvbGliLyIsInNvdXJjZXMiOlsiYmFyL2Jhci5zZXJ2aWNlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQzNDLE9BQU8sRUFBYyxFQUFFLEVBQUUsTUFBTSxNQUFNLENBQUM7QUFDdEMsT0FBTyxFQUFFLEdBQUcsRUFBRSxNQUFNLGdCQUFnQixDQUFDO0FBR3JDLElBQWEsVUFBVSxHQUF2QixNQUFhLFVBQVU7SUFFckIsSUFBSSxLQUFLO1FBQ1AsT0FBTyxFQUFFLENBQUMsSUFBSSxDQUFDLENBQUMsSUFBSSxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsRUFBRSxDQUFDLEdBQUcsR0FBRyxFQUFFLENBQUMsQ0FBQyxDQUFDO0lBQzdDLENBQUM7Q0FFRixDQUFBO0FBTlksVUFBVTtJQUR0QixVQUFVLEVBQUU7R0FDQSxVQUFVLENBTXRCO1NBTlksVUFBVSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IE9ic2VydmFibGUsIG9mIH0gZnJvbSAncnhqcyc7XG5pbXBvcnQgeyBtYXAgfSBmcm9tICdyeGpzL29wZXJhdG9ycyc7XG5cbkBJbmplY3RhYmxlKClcbmV4cG9ydCBjbGFzcyBCYXJTZXJ2aWNlIHtcblxuICBnZXQgdmFsdWUoKTogT2JzZXJ2YWJsZTxzdHJpbmc+IHtcbiAgICByZXR1cm4gb2YodHJ1ZSkucGlwZShtYXAodmFsID0+IGAke3ZhbH1gKSk7XG4gIH1cblxufVxuIl19

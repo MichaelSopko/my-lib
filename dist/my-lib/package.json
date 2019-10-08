@@ -1,0 +1,25 @@
+{
+  "name": "@my/lib",
+  "version": "1.0.0-alpha.0",
+  "repository": "https://github.com/dherges/ng-packaged.git",
+  "author": "david <david@spektrakel.de>",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/core": "8.0.0-beta.4",
+    "@angular/common": "8.0.0-beta.4"
+  },
+  "main": "bundles/my-lib.umd.js",
+  "module": "fesm5/my-lib.js",
+  "es2015": "fesm2015/my-lib.js",
+  "esm5": "esm5/my-lib.js",
+  "esm2015": "esm2015/my-lib.js",
+  "fesm5": "fesm5/my-lib.js",
+  "fesm2015": "fesm2015/my-lib.js",
+  "typings": "my-lib.d.ts",
+  "metadata": "my-lib.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
